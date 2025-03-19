@@ -14,9 +14,12 @@ The dataset contains 28,386 images for training and 7,099 images for testing. Th
 As we can see, the results are decent for 81.4% accuracy on test data.
 
 ## ❌ Problems
-🟥 There are classes that are hard for the model to recognize. Such as Disgust, Contempt, and Fear. I have already tried to replicate the expressions from the training and testing data, but it is still hard for the model to recognize them. This      is caused by the uneven class distribution.
+🟥 There are classes that are hard for the model to recognize. Such as Disgust, Contempt, and Fear. I have already tried to replicate the expressions from the training and testing data, but it is still hard for the model to recognize them. This is caused by the uneven class distribution.
+🟥 The accuracy is still a bit too low; we should aim for 85%.
 
 <img src="Images/output.png" width="500" height="300"/>
 As you can see, the quantities of the Disgust, Contempt, and Fear classes are much lower than those of other classes in the training data. Based on the Exploratory Data Analysis (EDA), Disgust has only 57 samples, Contempt has 51 samples, and Fear has 167 samples.
 
 ## 🛠️ How to Solve These Issues
+🔲 Remove the three classes Disgust, Contempt, and Fear, so only five classes are used.<br>
+🔲 Try using a different model or a pretrained model such as MobileNet for lighter model.
