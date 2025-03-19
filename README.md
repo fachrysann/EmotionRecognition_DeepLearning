@@ -15,4 +15,4 @@ As we can see, the results are decent for 81.4% accuracy on test data.
 
 ## ❌ Problems
 🟥 There are classes that are hard for the model to recognize. Such as Disgust, Contempt, and Fear. I have already tried to replicate the expressions from the training and testing data, but it is still hard for the model to recognize them. this caused by the uneven class.
-<img src="Images/output.png" width="500" height="700"/>
+<img src="Images/output.png" width="500" height="300"/>
