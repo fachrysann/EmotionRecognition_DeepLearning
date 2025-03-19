@@ -15,7 +15,7 @@ As we can see, the results are decent for 81.4% accuracy on test data.
 
 ## ❌ Problems
 🟥 There are classes that are hard for the model to recognize. Such as Disgust, Contempt, and Fear. I have already tried to replicate the expressions from the training and testing data, but it is still hard for the model to recognize them. This is caused by the uneven class distribution.<br>
-<img src="Images/output.png" width="500" height="300"/>
+<img src="Images/output.png" width="500" height="300"/><br>
 As you can see, the quantities of the Disgust, Contempt, and Fear classes are much lower than those of other classes in the training data. Based on the Exploratory Data Analysis (EDA), Disgust has only 57 samples, Contempt has 51 samples, and Fear has 167 samples.
 
 🟥 The accuracy is still a bit too low; we should aim for 85%.
