@@ -7,7 +7,7 @@ FER2013+ is an updated version of the FER2013 dataset. The previous version cont
 Here's the difference between FER2013 and FER2013+ according to Microsoft Github:
 ![Dataset Cover](Images/FER+vsFER.png) 
 
-The dataset contains 28,386 images for training and 7,099 images for testing. All images are 48x48 pixels.
+The dataset contains 28,386 images for training and 7,099 images for testing. There are 8 classes in total which anger, contempt, disgust, fear, happiness, neutral, sadness, surprise. All images are 48x48 pixels.
 
 ## 🧠 Results with MiniVGG
 
