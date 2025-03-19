@@ -10,5 +10,6 @@ Here's the difference between FER2013 and FER2013+ according to Microsoft Github
 The dataset contains 28,386 images for training and 7,099 images for testing. There are 8 classes in total which anger, contempt, disgust, fear, happiness, neutral, sadness, surprise. All images are 48x48 pixels.
 
 ## 🧠 Results with MiniVGG
+<img src="Images/emotion-ezgif.com-cut.gif"/>
 
 ## ❌ Problems
