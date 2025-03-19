@@ -1,6 +1,6 @@
 # Emotion Recognition using Deep Learning
 ## 📖 Introduction
-Recognizing emotions through facial expressions is a fundamental task in computer vision, widely used in applications like human-computer interaction, mental health analysis, and AI-driven customer insights.
+Recognizing emotions through facial expressions is a fundamental task in computer vision, widely used in applications like human-computer interaction, mental health analysis, and AI-driven customer insights.<br>
 📊 Dataset: [🔗 View the Dataset on Kaggle](https://www.kaggle.com/datasets/subhaditya/fer2013plus/data)<br>
 FER2013+ is an updated version of the FER2013 dataset. The previous version contained many mislabeled images, making it difficult to achieve good results. This improved dataset provides more accurate labels, allowing for better model performance.<br>
 
